@@ -17,7 +17,7 @@ public class Intro extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_intro);
-
+//codigo para pasar de un layout a otra
         btn = (Button) findViewById(R.id.buttonMain);
 
         btn.setOnClickListener(new View.OnClickListener(){
@@ -27,5 +27,6 @@ public class Intro extends AppCompatActivity {
                     startActivity(intent);
                 }
         });
+        //aca termina :v
     }
 }
